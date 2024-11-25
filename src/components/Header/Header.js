@@ -7,9 +7,9 @@ const Header = () => {
       <header>
         <div className="header-right">
           <select name="selectedPerson">
-            <option value="apple">Rohil</option>
-            <option value="banana">ABC</option>
-            <option value="orange">XYZ</option>
+            <option value="rohil">Rohil</option>
+            <option value="abc">ABC</option>
+            <option value="xyz">XYZ</option>
           </select>
 
           <div className="header-notification">
