@@ -4,13 +4,13 @@ import Header from "../Header/Header";
 
 const Recognize = () => {
   return (
-    <div className="recognize-wrap">
-        <UserMenu />
-        <div className="container">
-            <Header />
-        </div>
+    <div className="recognize-section-wrap">
+      <UserMenu />
+      <div className="container">
+        <Header />
+      </div>
     </div>
-  )
+  );
 };
 
 export default Recognize;

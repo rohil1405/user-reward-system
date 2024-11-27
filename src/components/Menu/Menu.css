@@ -17,7 +17,7 @@
 .menu-list {
     padding: 40px 0;
 }
-.menu-item {
+.menu-item a{
     display: flex;
     align-items: center;
     gap: 8px;

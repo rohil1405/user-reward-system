@@ -1,6 +1,7 @@
 import Header from "../Header/Header";
 import UserMenu from "../UserMenu/UserMenu";
 import dummy from "../../assets/dummy-img.jpg";
+import { Link } from "react-router-dom";
 import "./Profile.css";
 
 const Profile = () => {
@@ -85,9 +86,7 @@ const Profile = () => {
           </div>
 
           <div className="cta-btn">
-            <a href="#" target="_self">
-              Back
-            </a>
+            <Link to='/'>Back</Link>
           </div>
         </div>
       </div>

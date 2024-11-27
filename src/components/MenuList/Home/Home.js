@@ -2,6 +2,7 @@ import "./Home.css";
 import Menu from "../../Menu/Menu";
 import Header from "../../Header/Header";
 import achivemnet from "../../../assets/achievement.png";
+import BarChart from "./Chart";
 
 const Home = () => {
   return (
@@ -17,8 +18,8 @@ const Home = () => {
               <div className="overview-montd">
                 <select name="selectedMontd">
                   <option value="current-montd">Current Month</option>
-                  <option value="banana">ABC</option>
-                  <option value="orange">XYZ</option>
+                  <option value="abc">ABC</option>
+                  <option value="xyz">XYZ</option>
                 </select>
               </div>
             </div>
@@ -54,56 +55,63 @@ const Home = () => {
             </div>
           </div>
           <div className="award-chart-wrap">
-            <div className="container">
-              <div className="chart-wrap">
+            <div className="chart-wrap">
+              <div className="chart-top">
                 <h3 className="h2">Rewards History</h3>
+                <select name="selectedMontd">
+                  <option value="current-monthly">Current Month</option>
+                  <option value="3-month">Last 3 Months</option>
+                  <option value="6-month">Last 6 Months</option>
+                  <option value="year">Last 1 Year</option>
+                </select>
               </div>
-              <div className="award-wrap">
-                <h3 className="h2">Top Awards</h3>
 
-                <div className="award-lisring">
-                  <div className="award-item">
-                    <div className="award-item-left">
-                      <div className="award-icon blue">
-                        <img src={achivemnet} alt="achivement" />
-                      </div>
-                      <div className="award-text">
-                        Top Performer of the Year
-                      </div>
+              <div className="chart-bottom">
+                <BarChart />
+              </div>
+            </div>
+            <div className="award-wrap">
+              <h3 className="h2">Top Awards</h3>
+
+              <div className="award-listing">
+                <div className="award-item">
+                  <div className="award-item-left">
+                    <div className="award-icon blue">
+                      <img src={achivemnet} alt="achivement" />
                     </div>
-                    <div className="award-item-right">
-                      <div className="award-number">65</div>
-                    </div>
+                    <div className="award-text">Top Performer of the Year</div>
                   </div>
-
-                  <div className="award-item">
-                    <div className="award-item-left">
-                      <div className="award-icon blue">
-                        <img src={achivemnet} alt="achivement" />
-                      </div>
-                      <div className="award-text">Peer to Peer Recognition</div>
-                    </div>
-                    <div className="award-item-rifght">
-                      <div className="award-number">52</div>
-                    </div>
+                  <div className="award-item-right">
+                    <div className="award-number">65</div>
                   </div>
+                </div>
 
-                  <div className="award-item">
-                    <div className="award-item-left">
-                      <div className="award-icon blue">
-                        <img src={achivemnet} alt="achivement" />
-                      </div>
-                      <div className="award-text">Work Milestone Award</div>
+                <div className="award-item">
+                  <div className="award-item-left">
+                    <div className="award-icon green">
+                      <img src={achivemnet} alt="person" />
                     </div>
-                    <div className="award-item-right">
-                      <div className="award-number">38</div>
+                    <div className="award-text">Peer to Peer Recognition</div>
+                  </div>
+                  <div className="award-item-rifght">
+                    <div className="award-number">52</div>
+                  </div>
+                </div>
+
+                <div className="award-item">
+                  <div className="award-item-left">
+                    <div className="award-icon orange">
+                      <img src={achivemnet} alt="achivement" />
                     </div>
+                    <div className="award-text">Work Milestone Award</div>
+                  </div>
+                  <div className="award-item-right">
+                    <div className="award-number">38</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div className="redemption-list">
             <h3 className="h2">Recongtion List</h3>
             <table>

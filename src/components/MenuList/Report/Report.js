@@ -1,16 +1,15 @@
 import Header from "../../Header/Header";
 import Menu from "../../Menu/Menu";
 
-const setting = () => {
+const Report = () => {
   return (
-    <div className="setting-wrap">
+    <div className="report-wrap">
       <Menu />
       <div className="container">
         <Header />
-        <div className="setting"></div>
       </div>
     </div>
   );
 };
 
-export default setting;
+export default Report;
