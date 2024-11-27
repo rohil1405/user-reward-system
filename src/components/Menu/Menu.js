@@ -3,7 +3,6 @@ import "./Menu.css";
 import home from "../../assets/home.png";
 import employee from "../../assets/employee.png";
 import setting from "../../assets/setting.png";
-import transcation from "../../assets/transcation.png";
 import report from "../../assets/report.png";
 
 const menu = () => {

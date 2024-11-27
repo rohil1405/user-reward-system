@@ -40,7 +40,7 @@
     fill: #6200EA;
 }
 
-.menu-item svg {
+.menu-item svg path{
     transition: all 0.3s ease-in-out;
 }
 
@@ -49,18 +49,5 @@
     text-align: center;
 }
 
-.cta-btn a{
-    display: inline-block;
-    background-color: #6200EA;
-    color: #fff;
-    padding: 12px 24px;
-    border-radius: 12px;
-    border: 1px solid transparent;
-}
 
-.cta-btn a:hover {
-    background-color: transparent;
-    border: 1px solid #6200EA;
-    color: #6200EA;
-}
 

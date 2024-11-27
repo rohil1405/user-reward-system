@@ -28,7 +28,7 @@ const Overview = () => {
             </div>
 
             <div className="overview-item">
-              <div className="overview-name">Refunds</div>
+              <div className="overview-name">Rewards</div>
               <div className="overview-number">
                 <div className="overview-counter">24</div>
                 <div className="overview-total red">4%</div>

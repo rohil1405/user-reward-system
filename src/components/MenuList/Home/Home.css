@@ -1,0 +1,128 @@
+.overview-name {
+    font-size: 18px;
+    color: rgba(0,0,0,0.8);
+}
+.overview-counter {
+    font-size: 24px;
+    color: #6200EA;
+    font-weight: 600;
+}
+.overview-number {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+}
+.overview-total {
+    color: #008000;
+    font-size: 14px;
+    border-radius: 12px;
+    background-color: rgba(0,118,0,0.1);
+    padding: 2px 4px;
+}
+.overview-total.red {
+    background-color: rgba(255,0,0,0.4);
+    color: red;
+}
+.overview-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.overview-item {
+    width: 33.33%;
+    padding: 20px 40px;
+    border: 1px solid #d7d7d7;
+    background-color: #FFF;
+}
+.home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content {
+    background-color: #F0E9FB;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.overview-last, .overview-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.overview-category select {
+    padding: 2px 4px !important;
+}
+.home-header select, .overview-category select {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,0.8);
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
+}
+.overview-number ul li {
+    font-size: 20px;
+    font-weight: 600;
+}
+.first {
+    color: #6200EA;
+}
+.second {
+    color: green;
+    font-size: 18px;
+}
+.third {
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+}
+.redemption-list {
+    padding-top: 30px;
+}
+.award-number {
+    font-size: 20px;
+    font-weight: 600;
+    color: #6200EA;
+}
+.award-item-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.award-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.award-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.8);
+}
+.award-wrap {
+    border: 0.2px solid rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 15px;
+}
+.award-item {
+    border-top: 1px solid #E9E9E9;
+    padding: 20px 0;
+}
+.award-item:first-child {
+    border: none;
+}
+.award-icon.blue {
+    padding: 10px 24px;
+    background-color: rgba(135,206,250,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+.award-icon img {
+    width: 50px;
+    height: 50px;
+}
